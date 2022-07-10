@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Barlow', sans-serif;
+    background-image: url("https://denemea1b2.my.canva.site/images/587bf9fcef7552a94920231d3e3627bf.png");
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+    display: grid;
+    overflow: overlay;
+    background-size: cover;
+  }
+  .buton {
+    padding: 15px;
+    width: 11pc;
+    margin: auto;
+    font-weight: 900;
+    color: black;
+    margin-top: 30px;
+  }
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .link {
+    margin-top: 20px;
+    margin-left: -30px;
+  }
+  img {
+    width: 27px;
+    margin-left: 26px;
+  }
+  .right {
+    background: #6262622b;
+    float: right;
+    width: 34pc;
+    height: 36pc;
+    padding-top: 0px;
+    margin-top: 12px;
+    border-radius: 30px;
+    text-align: start;
+    box-shadow: 0 0px 13px 4px #0000006e;
+  }
+  h1.about {
+    font-size: 40px;
+  }
+  .buttons {
+    margin-top: 2pc;
+  }
+  .home {
+    margin: auto;
+  }
+  .left {
+    float: left;
+    width: 40pc;
+    background: #ffffff00;
+    height: 41pc;
+  }
+  .profil{
+    width: 30pc;
+    margin-left: 35px;
+    border-radius: 20px;
+    margin-top: 0pc;
+  }
+  li.a {
+    font-size: 2pc;
+    font-weight: 900;
+}
+li.a1 {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 3pc;
+}
+li.a2 {
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: 300;
+}
+::marker {
+    color: #00ffff00;
+}
+@media (max-width: 600px) {
+    .right {
+        background: #6262622b;
+        width: 34pc;
+        height: 60pc;
+        border-radius: 30px;
+        text-align: start;
+        box-shadow: 0 0px 13px 4px #0000006e;
+        margin-top: 75pc;
+        margin-bottom: 5pc;
+        margin-left: 3pc;
+            float: initial;
+    }
+    .left {
+        float: left;
+        width: 40pc;
+        background: #ffffff00;
+        height: 50pc;
+        margin-top: 10pc;
+    }
+    ul {
+        padding-top: 15pc;
+    }
+    li.a {
+        font-size: 2pc;
+        font-weight: 900;
+        margin-top: -13pc;
+    }
+    li.a1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 8pc;
+    }
+    li.a2 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
+@media (max-height: 500px) {
+    .right {
+        background: #6262622b;
+        width: 34pc;
+        height: 60pc;
+        border-radius: 30px;
+        text-align: start;
+        box-shadow: 0 0px 13px 4px #0000006e;
+        margin-bottom: 5pc;
+        margin-left: 3pc;
+        float: right;
+    }
+    .left {
+        float: left;
+        width: 40pc;
+        background: #ffffff00;
+        height: 50pc;
+        margin-top: 22pc;
+    }
+    ul {
+        padding-top: 15pc;
+    }
+    li.a {
+        font-size: 2pc;
+        font-weight: 900;
+        margin-top: -13pc;
+    }
+    li.a1 {
+        font-size: 30px;
+        font-weight: 500;
+        margin-top: 8pc;
+    }
+    li.a2 {
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+}
